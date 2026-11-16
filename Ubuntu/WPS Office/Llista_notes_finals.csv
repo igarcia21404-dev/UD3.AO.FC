@@ -1,0 +1,11 @@
+Nom i cognoms,Correu,Nota 1a aval,Nota 2a aval,Nota 3a aval,Nota final
+Alumne 01,alumne01@exemple.com,,,,=IF(COUNT(C2:E2)=0,"",ROUND(AVERAGE(C2:E2),2))
+Alumne 02,alumne02@exemple.com,,,,=IF(COUNT(C3:E3)=0,"",ROUND(AVERAGE(C3:E3),2))
+Alumne 03,alumne03@exemple.com,,,,=IF(COUNT(C4:E4)=0,"",ROUND(AVERAGE(C4:E4),2))
+Alumne 04,alumne04@exemple.com,,,,=IF(COUNT(C5:E5)=0,"",ROUND(AVERAGE(C5:E5),2))
+Alumne 05,alumne05@exemple.com,,,,=IF(COUNT(C6:E6)=0,"",ROUND(AVERAGE(C6:E6),2))
+Alumne 06,alumne06@exemple.com,,,,=IF(COUNT(C7:E7)=0,"",ROUND(AVERAGE(C7:E7),2))
+Alumne 07,alumne07@exemple.com,,,,=IF(COUNT(C8:E8)=0,"",ROUND(AVERAGE(C8:E8),2))
+Alumne 08,alumne08@exemple.com,,,,=IF(COUNT(C9:E9)=0,"",ROUND(AVERAGE(C9:E9),2))
+Alumne 09,alumne09@exemple.com,,,,=IF(COUNT(C10:E10)=0,"",ROUND(AVERAGE(C10:E10),2))
+Alumne 10,alumne10@exemple.com,,,,=IF(COUNT(C11:E11)=0,"",ROUND(AVERAGE(C11:E11),2))
