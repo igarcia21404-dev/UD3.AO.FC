@@ -1,0 +1,12 @@
+Tasca,Feta? (Sí/No)
+Llegir l'enunciat,No
+Crear repositori,No
+Clonar repositori,No
+Personalitzar Calc,No
+Crear checklist,No
+Crear factura,No
+Crear quadern de notes,No
+Pujar fitxers,No
+Total,,=COUNTA(A2:A9)
+Fetes,,=COUNTIF(B2:B9,"Sí")
+Pendents,,=COUNTIF(B2:B9,"No")
