@@ -1,0 +1,10 @@
+FACTURA,,,
+Emissor,Nom de l'empresa,,
+Client,Nom del client,,
+Concepte,Quantitat,Preu unitari (€),Import (€)
+Producte o servei 1,1,0,=B5*C5
+Producte o servei 2,1,0,=B6*C6
+Producte o servei 3,1,0,=B7*C7
+Subtotal,,,=SUM(D5:D7)
+IVA 21%,,,=D8*21%
+TOTAL,,,=D8+D9
