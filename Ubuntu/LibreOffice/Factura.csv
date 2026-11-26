@@ -1,0 +1,13 @@
+FACTURA Núm.,001/2026,,
+Data,26/11/2026,,
+Emissor,Nom de l'Empresa S.L.,NIF: B12345678,
+Client,Nom del Client,NIF: 12345678A,
+,,,
+Concepte,Quantitat,Preu unitari (€),Import (€)
+Producte o servei 1,2,25.50,=B7*C7
+Producte o servei 2,1,120.00,=B8*C8
+Producte o servei 3,3,15.75,=B9*C9
+,,,
+Subtotal,,,=SUM(D7:D9)
+IVA 21%,,,=D11*0.21
+TOTAL,,,=D11+D12

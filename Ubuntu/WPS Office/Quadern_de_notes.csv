@@ -1,0 +1,11 @@
+Nom i cognoms,Correu,Activitat 1,Activitat 2,Activitat 3,Examen,Nota final
+Alumne 01,alumne01@exemple.com,8.5,7.0,9.0,8.0,=IF(COUNT(C2:F2)=0,"",ROUND(AVERAGE(C2:F2),2))
+Alumne 02,alumne02@exemple.com,6.0,5.5,7.0,6.5,=IF(COUNT(C3:F3)=0,"",ROUND(AVERAGE(C3:F3),2))
+Alumne 03,alumne03@exemple.com,9.0,8.5,9.5,9.0,=IF(COUNT(C4:F4)=0,"",ROUND(AVERAGE(C4:F4),2))
+Alumne 04,alumne04@exemple.com,4.5,5.0,6.0,5.5,=IF(COUNT(C5:F5)=0,"",ROUND(AVERAGE(C5:F5),2))
+Alumne 05,alumne05@exemple.com,7.5,8.0,7.0,8.5,=IF(COUNT(C6:F6)=0,"",ROUND(AVERAGE(C6:F6),2))
+Alumne 06,alumne06@exemple.com,,,,,=IF(COUNT(C7:F7)=0,"",ROUND(AVERAGE(C7:F7),2))
+Alumne 07,alumne07@exemple.com,8.0,7.5,8.5,8.0,=IF(COUNT(C8:F8)=0,"",ROUND(AVERAGE(C8:F8),2))
+Alumne 08,alumne08@exemple.com,5.5,6.0,5.0,6.5,=IF(COUNT(C9:F9)=0,"",ROUND(AVERAGE(C9:F9),2))
+Alumne 09,alumne09@exemple.com,9.5,9.0,10.0,9.5,=IF(COUNT(C10:F10)=0,"",ROUND(AVERAGE(C10:F10),2))
+Alumne 10,alumne10@exemple.com,6.5,7.0,6.0,7.5,=IF(COUNT(C11:F11)=0,"",ROUND(AVERAGE(C11:F11),2))

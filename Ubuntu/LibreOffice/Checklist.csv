@@ -1,0 +1,15 @@
+Tasca,Feta? (Sí/No)
+Llegir l'enunciat,Sí
+Crear repositori GitHub,Sí
+Clonar repositori a Linux,Sí
+Clonar repositori a Windows,No
+Personalitzar barra d'eines LibreOffice,No
+Personalitzar barra d'eines WPS,No
+Crear checklist amb fórmules,Sí
+Crear factura amb fórmules,No
+Crear quadern de notes,No
+Crear llista de notes finals,No
+Pujar documents al repositori,No
+Total elements,=COUNTA(A2:A11)
+Elements fets (Sí),=COUNTIF(B2:B11,"Sí")
+Elements pendents (No),=COUNTIF(B2:B11,"No")
